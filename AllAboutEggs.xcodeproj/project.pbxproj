@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14C441211A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C4411E1A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png */; };
+		14C441221A6DF0FE002D77E8 /* 103281324.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14C4411F1A6DF0FE002D77E8 /* 103281324.jpg */; };
+		14C441231A6DF0FE002D77E8 /* url.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14C441201A6DF0FE002D77E8 /* url.jpg */; };
 		14CA095F1A6D73AC0014397F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA095E1A6D73AC0014397F /* AppDelegate.swift */; };
 		14CA09611A6D73AC0014397F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA09601A6D73AC0014397F /* ViewController.swift */; };
 		14CA09641A6D73AC0014397F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CA09621A6D73AC0014397F /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C4411E1A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png"; sourceTree = "<group>"; };
+		14C4411F1A6DF0FE002D77E8 /* 103281324.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 103281324.jpg; sourceTree = "<group>"; };
+		14C441201A6DF0FE002D77E8 /* url.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = url.jpg; sourceTree = "<group>"; };
 		14CA09591A6D73AC0014397F /* AllAboutEggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutEggs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CA095D1A6D73AC0014397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CA095E1A6D73AC0014397F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 		14CA095C1A6D73AC0014397F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14C4411E1A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png */,
+				14C4411F1A6DF0FE002D77E8 /* 103281324.jpg */,
+				14C441201A6DF0FE002D77E8 /* url.jpg */,
 				14CA095D1A6D73AC0014397F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +203,9 @@
 			files = (
 				14CA09641A6D73AC0014397F /* Main.storyboard in Resources */,
 				14CA09691A6D73AC0014397F /* LaunchScreen.xib in Resources */,
+				14C441221A6DF0FE002D77E8 /* 103281324.jpg in Resources */,
+				14C441231A6DF0FE002D77E8 /* url.jpg in Resources */,
+				14C441211A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png in Resources */,
 				14CA09661A6D73AC0014397F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +419,7 @@
 				14CA097A1A6D73AC0014397F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14CA097B1A6D73AC0014397F /* Build configuration list for PBXNativeTarget "AllAboutEggsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				14CA097D1A6D73AC0014397F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
