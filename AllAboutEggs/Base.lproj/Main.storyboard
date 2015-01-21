@@ -34,6 +34,24 @@
                                     <rect key="frame" x="73" y="510" width="255" height="70"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9t-iO-fSC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="515" width="140" height="49"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRY-gh-Fon">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="124" y="515" width="148" height="49"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -41,6 +59,8 @@
                                 <exclude reference="805-dK-X6X"/>
                                 <exclude reference="HnW-Cp-J61"/>
                                 <exclude reference="zfS-Zb-xHh"/>
+                                <exclude reference="p9t-iO-fSC"/>
+                                <exclude reference="VRY-gh-Fon"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -48,6 +68,8 @@
                                 <include reference="805-dK-X6X"/>
                                 <include reference="HnW-Cp-J61"/>
                                 <include reference="zfS-Zb-xHh"/>
+                                <include reference="p9t-iO-fSC"/>
+                                <include reference="VRY-gh-Fon"/>
                             </mask>
                         </variation>
                     </view>
@@ -86,6 +108,15 @@
                                     <rect key="frame" x="73" y="510" width="255" height="70"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTn-ST-csA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="133" y="510" width="138" height="59"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -93,6 +124,7 @@
                                 <exclude reference="EUM-2D-UOM"/>
                                 <exclude reference="vnT-ry-KDy"/>
                                 <exclude reference="0BH-zw-Bcu"/>
+                                <exclude reference="nTn-ST-csA"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -100,6 +132,7 @@
                                 <include reference="EUM-2D-UOM"/>
                                 <include reference="vnT-ry-KDy"/>
                                 <include reference="0BH-zw-Bcu"/>
+                                <include reference="nTn-ST-csA"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,18 +165,29 @@
                                     <rect key="frame" x="73" y="70" width="255" height="82"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9M-XM-Csn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="82" width="137" height="44"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Q0p-kY-dcS"/>
                                 <exclude reference="L1r-yc-wlx"/>
+                                <exclude reference="v9M-XM-Csn"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Q0p-kY-dcS"/>
                                 <include reference="L1r-yc-wlx"/>
+                                <include reference="v9M-XM-Csn"/>
                             </mask>
                         </variation>
                     </view>
@@ -170,16 +214,49 @@
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBS-1k-Aia">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="160" y="129" width="200" height="62"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5r-Z5-myW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="160" y="278" width="206" height="64"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Do4-VF-up7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="160" y="425" width="206" height="63"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="YiD-Xc-fYz"/>
+                                <exclude reference="mBS-1k-Aia"/>
+                                <exclude reference="A5r-Z5-myW"/>
+                                <exclude reference="Do4-VF-up7"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="YiD-Xc-fYz"/>
+                                <include reference="mBS-1k-Aia"/>
+                                <include reference="A5r-Z5-myW"/>
+                                <include reference="Do4-VF-up7"/>
                             </mask>
                         </variation>
                     </view>
@@ -212,18 +289,29 @@
                                     <rect key="frame" x="73" y="512" width="255" height="73"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9Y-D9-nbJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="130" y="519" width="141" height="53"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="K4y-eB-g3n"/>
                                 <exclude reference="uX9-0m-4Ql"/>
+                                <exclude reference="w9Y-D9-nbJ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="K4y-eB-g3n"/>
                                 <include reference="uX9-0m-4Ql"/>
+                                <include reference="w9Y-D9-nbJ"/>
                             </mask>
                         </variation>
                     </view>
