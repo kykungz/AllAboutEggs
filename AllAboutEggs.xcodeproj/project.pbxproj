@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14C441211A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C4411E1A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png */; };
-		14C441221A6DF0FE002D77E8 /* 103281324.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14C4411F1A6DF0FE002D77E8 /* 103281324.jpg */; };
-		14C441231A6DF0FE002D77E8 /* url.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14C441201A6DF0FE002D77E8 /* url.jpg */; };
 		14CA095F1A6D73AC0014397F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA095E1A6D73AC0014397F /* AppDelegate.swift */; };
 		14CA09611A6D73AC0014397F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA09601A6D73AC0014397F /* ViewController.swift */; };
 		14CA09641A6D73AC0014397F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CA09621A6D73AC0014397F /* Main.storyboard */; };
 		14CA09661A6D73AC0014397F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CA09651A6D73AC0014397F /* Images.xcassets */; };
 		14CA09691A6D73AC0014397F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CA09671A6D73AC0014397F /* LaunchScreen.xib */; };
 		14CA09751A6D73AC0014397F /* AllAboutEggsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA09741A6D73AC0014397F /* AllAboutEggsTests.swift */; };
+		14F1049C1A6FF30700C952DC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104941A6FF30700C952DC /* back.png */; };
+		14F1049D1A6FF30700C952DC /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104951A6FF30700C952DC /* bar.png */; };
+		14F1049E1A6FF30700C952DC /* begin.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104961A6FF30700C952DC /* begin.png */; };
+		14F1049F1A6FF30700C952DC /* boiled-egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104971A6FF30700C952DC /* boiled-egg.png */; };
+		14F104A01A6FF30700C952DC /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104981A6FF30700C952DC /* done.png */; };
+		14F104A11A6FF30700C952DC /* go.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104991A6FF30700C952DC /* go.png */; };
+		14F104A21A6FF30700C952DC /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F1049A1A6FF30700C952DC /* next.png */; };
+		14F104A31A6FF30700C952DC /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F1049B1A6FF30700C952DC /* ready.png */; };
+		14F104C41A6FF31F00C952DC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104BA1A6FF31F00C952DC /* 1.png */; };
+		14F104C51A6FF31F00C952DC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104BB1A6FF31F00C952DC /* 2.png */; };
+		14F104C61A6FF31F00C952DC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104BC1A6FF31F00C952DC /* 3.png */; };
+		14F104C71A6FF31F00C952DC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F104BD1A6FF31F00C952DC /* 4.jpg */; };
+		14F104C81A6FF31F00C952DC /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104BE1A6FF31F00C952DC /* done.png */; };
+		14F104C91A6FF31F00C952DC /* meterials.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104BF1A6FF31F00C952DC /* meterials.png */; };
+		14F104CA1A6FF31F00C952DC /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F104C01A6FF31F00C952DC /* start.jpg */; };
+		14F104CB1A6FF31F00C952DC /* step1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F104C11A6FF31F00C952DC /* step1.jpg */; };
+		14F104CC1A6FF31F00C952DC /* step2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F104C21A6FF31F00C952DC /* step2.jpg */; };
+		14F104CD1A6FF31F00C952DC /* step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F104C31A6FF31F00C952DC /* step3.png */; };
+		14F104CF1A6FFADA00C952DC /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F104CE1A6FFADA00C952DC /* 0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14C4411E1A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png"; sourceTree = "<group>"; };
-		14C4411F1A6DF0FE002D77E8 /* 103281324.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 103281324.jpg; sourceTree = "<group>"; };
-		14C441201A6DF0FE002D77E8 /* url.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = url.jpg; sourceTree = "<group>"; };
 		14CA09591A6D73AC0014397F /* AllAboutEggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutEggs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CA095D1A6D73AC0014397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CA095E1A6D73AC0014397F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +55,25 @@
 		14CA096E1A6D73AC0014397F /* AllAboutEggsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllAboutEggsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CA09731A6D73AC0014397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CA09741A6D73AC0014397F /* AllAboutEggsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAboutEggsTests.swift; sourceTree = "<group>"; };
+		14F104941A6FF30700C952DC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		14F104951A6FF30700C952DC /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		14F104961A6FF30700C952DC /* begin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = begin.png; sourceTree = "<group>"; };
+		14F104971A6FF30700C952DC /* boiled-egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boiled-egg.png"; sourceTree = "<group>"; };
+		14F104981A6FF30700C952DC /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		14F104991A6FF30700C952DC /* go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go.png; sourceTree = "<group>"; };
+		14F1049A1A6FF30700C952DC /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		14F1049B1A6FF30700C952DC /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		14F104BA1A6FF31F00C952DC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		14F104BB1A6FF31F00C952DC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		14F104BC1A6FF31F00C952DC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		14F104BD1A6FF31F00C952DC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		14F104BE1A6FF31F00C952DC /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		14F104BF1A6FF31F00C952DC /* meterials.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meterials.png; sourceTree = "<group>"; };
+		14F104C01A6FF31F00C952DC /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		14F104C11A6FF31F00C952DC /* step1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = step1.jpg; sourceTree = "<group>"; };
+		14F104C21A6FF31F00C952DC /* step2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = step2.jpg; sourceTree = "<group>"; };
+		14F104C31A6FF31F00C952DC /* step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3.png; sourceTree = "<group>"; };
+		14F104CE1A6FFADA00C952DC /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +128,8 @@
 		14CA095C1A6D73AC0014397F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14C4411E1A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png */,
-				14C4411F1A6DF0FE002D77E8 /* 103281324.jpg */,
-				14C441201A6DF0FE002D77E8 /* url.jpg */,
+				14F104B91A6FF31F00C952DC /* template */,
+				14F104931A6FF30700C952DC /* icon */,
 				14CA095D1A6D73AC0014397F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -119,6 +150,39 @@
 				14CA09731A6D73AC0014397F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14F104931A6FF30700C952DC /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				14F104941A6FF30700C952DC /* back.png */,
+				14F104951A6FF30700C952DC /* bar.png */,
+				14F104961A6FF30700C952DC /* begin.png */,
+				14F104971A6FF30700C952DC /* boiled-egg.png */,
+				14F104981A6FF30700C952DC /* done.png */,
+				14F104991A6FF30700C952DC /* go.png */,
+				14F1049A1A6FF30700C952DC /* next.png */,
+				14F1049B1A6FF30700C952DC /* ready.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		14F104B91A6FF31F00C952DC /* template */ = {
+			isa = PBXGroup;
+			children = (
+				14F104CE1A6FFADA00C952DC /* 0.jpg */,
+				14F104BA1A6FF31F00C952DC /* 1.png */,
+				14F104BB1A6FF31F00C952DC /* 2.png */,
+				14F104BC1A6FF31F00C952DC /* 3.png */,
+				14F104BD1A6FF31F00C952DC /* 4.jpg */,
+				14F104BE1A6FF31F00C952DC /* done.png */,
+				14F104BF1A6FF31F00C952DC /* meterials.png */,
+				14F104C01A6FF31F00C952DC /* start.jpg */,
+				14F104C11A6FF31F00C952DC /* step1.jpg */,
+				14F104C21A6FF31F00C952DC /* step2.jpg */,
+				14F104C31A6FF31F00C952DC /* step3.png */,
+			);
+			path = template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,11 +265,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F104CF1A6FFADA00C952DC /* 0.jpg in Resources */,
+				14F104C51A6FF31F00C952DC /* 2.png in Resources */,
+				14F104C91A6FF31F00C952DC /* meterials.png in Resources */,
+				14F104C81A6FF31F00C952DC /* done.png in Resources */,
+				14F1049C1A6FF30700C952DC /* back.png in Resources */,
+				14F104A01A6FF30700C952DC /* done.png in Resources */,
+				14F104C71A6FF31F00C952DC /* 4.jpg in Resources */,
+				14F104CB1A6FF31F00C952DC /* step1.jpg in Resources */,
+				14F1049F1A6FF30700C952DC /* boiled-egg.png in Resources */,
+				14F1049D1A6FF30700C952DC /* bar.png in Resources */,
+				14F104C61A6FF31F00C952DC /* 3.png in Resources */,
+				14F104A31A6FF30700C952DC /* ready.png in Resources */,
+				14F104CA1A6FF31F00C952DC /* start.jpg in Resources */,
 				14CA09641A6D73AC0014397F /* Main.storyboard in Resources */,
+				14F104A11A6FF30700C952DC /* go.png in Resources */,
+				14F104CC1A6FF31F00C952DC /* step2.jpg in Resources */,
+				14F104A21A6FF30700C952DC /* next.png in Resources */,
+				14F104CD1A6FF31F00C952DC /* step3.png in Resources */,
+				14F1049E1A6FF30700C952DC /* begin.png in Resources */,
+				14F104C41A6FF31F00C952DC /* 1.png in Resources */,
 				14CA09691A6D73AC0014397F /* LaunchScreen.xib in Resources */,
-				14C441221A6DF0FE002D77E8 /* 103281324.jpg in Resources */,
-				14C441231A6DF0FE002D77E8 /* url.jpg in Resources */,
-				14C441211A6DF0FE002D77E8 /* free-vector-large-cooking-pot-clip-art_105917_Large_Cooking_Pot_clip_art_hight.png in Resources */,
 				14CA09661A6D73AC0014397F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
