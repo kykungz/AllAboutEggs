@@ -117,6 +117,7 @@
                         <viewControllerLayoutGuide type="bottom" id="qAz-BQ-BVN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9yT-it-M4D">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q0p-kY-dcS">
@@ -160,6 +161,7 @@
                         <viewControllerLayoutGuide type="bottom" id="09f-ZP-Bjl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="P4B-Lf-qVv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YiD-Xc-fYz">
@@ -195,6 +197,7 @@
                         <viewControllerLayoutGuide type="bottom" id="IO7-Le-XUY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8CU-SZ-ciT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meterials.png" translatesAutoresizingMaskIntoConstraints="NO" id="K4y-eB-g3n">
@@ -238,6 +241,7 @@
                         <viewControllerLayoutGuide type="bottom" id="5x5-qK-hzt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WId-2z-HrQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="w4l-jh-e5O">
@@ -246,16 +250,27 @@
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAd-Q2-1AM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="508" width="129" height="92"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="w4l-jh-e5O"/>
+                                <exclude reference="bAd-Q2-1AM"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="w4l-jh-e5O"/>
+                                <include reference="bAd-Q2-1AM"/>
                             </mask>
                         </variation>
                     </view>
@@ -273,6 +288,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Jbl-4K-yoT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="a2E-jB-WUg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jY8-80-T9n">
@@ -281,16 +297,27 @@
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHc-77-tDf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="283" y="499" width="117" height="101"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="jY8-80-T9n"/>
+                                <exclude reference="CHc-77-tDf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="jY8-80-T9n"/>
+                                <include reference="CHc-77-tDf"/>
                             </mask>
                         </variation>
                     </view>
@@ -308,6 +335,7 @@
                         <viewControllerLayoutGuide type="bottom" id="5an-x8-2nR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="53F-l6-YiC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step3.png" translatesAutoresizingMaskIntoConstraints="NO" id="HKQ-bL-YZj">
@@ -343,6 +371,7 @@
                         <viewControllerLayoutGuide type="bottom" id="mrM-I6-Ity"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fkj-eC-ff2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="done1.png" translatesAutoresizingMaskIntoConstraints="NO" id="cqt-yg-q34">
@@ -357,18 +386,29 @@
                                     <rect key="frame" x="73" y="440" width="255" height="73"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vs6-rc-XYQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="133" y="452" width="134" height="61"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="cqt-yg-q34"/>
                                 <exclude reference="a8D-Gc-Dy6"/>
+                                <exclude reference="vs6-rc-XYQ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="cqt-yg-q34"/>
                                 <include reference="a8D-Gc-Dy6"/>
+                                <include reference="vs6-rc-XYQ"/>
                             </mask>
                         </variation>
                     </view>
@@ -386,6 +426,7 @@
                         <viewControllerLayoutGuide type="bottom" id="lnO-2l-OFa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cZ4-ZF-Es9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
