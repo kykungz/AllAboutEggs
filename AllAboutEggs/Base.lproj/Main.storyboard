@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="foA-K9-B3s">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="foA-K9-B3s">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -123,6 +123,24 @@
                                     <segue destination="Cuv-Uk-ZWg" kind="show" id="nOp-bG-OOn"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="mee-lX-ThL">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="70" height="60"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AH-gZ-UC1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="35" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="foA-K9-B3s" kind="show" id="hOj-MV-sLf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -131,6 +149,8 @@
                                 <exclude reference="vnT-ry-KDy"/>
                                 <exclude reference="0BH-zw-Bcu"/>
                                 <exclude reference="nTn-ST-csA"/>
+                                <exclude reference="mee-lX-ThL"/>
+                                <exclude reference="6AH-gZ-UC1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -139,6 +159,8 @@
                                 <include reference="vnT-ry-KDy"/>
                                 <include reference="0BH-zw-Bcu"/>
                                 <include reference="nTn-ST-csA"/>
+                                <include reference="mee-lX-ThL"/>
+                                <include reference="6AH-gZ-UC1"/>
                             </mask>
                         </variation>
                     </view>
@@ -184,6 +206,24 @@
                                     <segue destination="1sU-Q1-vQz" kind="show" id="Sjh-yb-YnC"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZpC-eg-JaB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="20" width="70" height="60"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcV-rO-a4e">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="35" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="8u5-Mq-myx" kind="show" id="2KS-T1-6nc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -191,6 +231,8 @@
                                 <exclude reference="Q0p-kY-dcS"/>
                                 <exclude reference="L1r-yc-wlx"/>
                                 <exclude reference="v9M-XM-Csn"/>
+                                <exclude reference="ZpC-eg-JaB"/>
+                                <exclude reference="tcV-rO-a4e"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -198,6 +240,8 @@
                                 <include reference="Q0p-kY-dcS"/>
                                 <include reference="L1r-yc-wlx"/>
                                 <include reference="v9M-XM-Csn"/>
+                                <include reference="ZpC-eg-JaB"/>
+                                <include reference="tcV-rO-a4e"/>
                             </mask>
                         </variation>
                     </view>
@@ -222,6 +266,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="VGO-a3-9qY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="10" y="10" width="70" height="60"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBS-1k-Aia">
@@ -260,22 +310,38 @@
                                     <segue destination="iJf-kp-0Je" kind="show" id="Lcs-Sn-6ip"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-Y5-4C2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="25" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Cuv-Uk-ZWg" kind="show" id="fa1-Ka-sH1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="YiD-Xc-fYz"/>
+                                <exclude reference="VGO-a3-9qY"/>
                                 <exclude reference="mBS-1k-Aia"/>
                                 <exclude reference="A5r-Z5-myW"/>
                                 <exclude reference="Do4-VF-up7"/>
+                                <exclude reference="cOB-Y5-4C2"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="YiD-Xc-fYz"/>
+                                <include reference="VGO-a3-9qY"/>
                                 <include reference="mBS-1k-Aia"/>
                                 <include reference="A5r-Z5-myW"/>
                                 <include reference="Do4-VF-up7"/>
+                                <include reference="cOB-Y5-4C2"/>
                             </mask>
                         </variation>
                     </view>
@@ -302,6 +368,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="ceW-vJ-2gh">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="10" y="10" width="70" height="60"/>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ready.png" translatesAutoresizingMaskIntoConstraints="NO" id="uX9-0m-4Ql">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -320,20 +392,36 @@
                                     <segue destination="A9x-eZ-k1r" kind="show" id="h0n-TI-Ldt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHn-Fk-zFa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="22" y="25" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="1sU-Q1-vQz" kind="show" id="1Di-4y-mOQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="K4y-eB-g3n"/>
+                                <exclude reference="ceW-vJ-2gh"/>
                                 <exclude reference="uX9-0m-4Ql"/>
                                 <exclude reference="w9Y-D9-nbJ"/>
+                                <exclude reference="oHn-Fk-zFa"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="K4y-eB-g3n"/>
+                                <include reference="ceW-vJ-2gh"/>
                                 <include reference="uX9-0m-4Ql"/>
                                 <include reference="w9Y-D9-nbJ"/>
+                                <include reference="oHn-Fk-zFa"/>
                             </mask>
                         </variation>
                     </view>
@@ -369,21 +457,43 @@
                                     <rect key="frame" x="271" y="508" width="129" height="92"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="SKI-0G-xhl" kind="modal" modalTransitionStyle="crossDissolve" id="FTO-xr-jdf"/>
+                                    <segue destination="SKI-0G-xhl" kind="show" id="95m-BR-O90"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHD-f1-yui">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="547" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="iJf-kp-0Je" kind="show" id="mIE-zQ-6bi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="pVB-jb-9t1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="532" width="70" height="60"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="w4l-jh-e5O"/>
                                 <exclude reference="bAd-Q2-1AM"/>
+                                <exclude reference="yHD-f1-yui"/>
+                                <exclude reference="pVB-jb-9t1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="w4l-jh-e5O"/>
                                 <include reference="bAd-Q2-1AM"/>
+                                <include reference="yHD-f1-yui"/>
+                                <include reference="pVB-jb-9t1"/>
                             </mask>
                         </variation>
                     </view>
@@ -422,18 +532,40 @@
                                     <segue destination="yrF-nu-yE8" kind="modal" modalTransitionStyle="crossDissolve" id="tBH-tx-sjp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoQ-BJ-8MI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="547" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="A9x-eZ-k1r" kind="show" id="Aed-kh-zb9"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-6Z-phU">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="532" width="70" height="60"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="jY8-80-T9n"/>
                                 <exclude reference="CHc-77-tDf"/>
+                                <exclude reference="aoQ-BJ-8MI"/>
+                                <exclude reference="KUb-6Z-phU"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="jY8-80-T9n"/>
                                 <include reference="CHc-77-tDf"/>
+                                <include reference="aoQ-BJ-8MI"/>
+                                <include reference="KUb-6Z-phU"/>
                             </mask>
                         </variation>
                     </view>
@@ -471,11 +603,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OV2-HE-iAO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title=" ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="170" y="550" width="46" height="30"/>
+                                    <rect key="frame" x="155" y="518" width="91" height="67"/>
                                 </variation>
                                 <connections>
                                     <segue destination="xO2-hM-4ly" kind="modal" modalTransitionStyle="crossDissolve" id="zlI-YK-fmT"/>
@@ -535,6 +667,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="144" y="470" width="117" height="57"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="foA-K9-B3s" kind="show" id="ksx-ZA-dpz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -556,7 +691,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaG-kT-xAn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6174" y="199"/>
+            <point key="canvasLocation" x="1204.5" y="970"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7u4-Yg-6Wx">
@@ -582,6 +717,7 @@
         <image name="2.png" width="506" height="1012"/>
         <image name="3.png" width="506" height="1012"/>
         <image name="4.jpg" width="506" height="1012"/>
+        <image name="back.png" width="82" height="65"/>
         <image name="begin.png" width="342" height="94"/>
         <image name="boiled-egg.png" width="250" height="286"/>
         <image name="done.png" width="427" height="135"/>
@@ -595,6 +731,11 @@
         <image name="step3.png" width="506" height="1012"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="N5l-tT-YQ7"/>
+        <segue reference="hOj-MV-sLf"/>
+        <segue reference="2KS-T1-6nc"/>
+        <segue reference="fa1-Ka-sH1"/>
+        <segue reference="1Di-4y-mOQ"/>
+        <segue reference="mIE-zQ-6bi"/>
+        <segue reference="Aed-kh-zb9"/>
     </inferredMetricsTieBreakers>
 </document>
